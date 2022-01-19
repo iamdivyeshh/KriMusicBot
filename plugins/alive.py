@@ -68,7 +68,7 @@ async def start(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "**मेरे भगवान...✨**", url=f"https://t.me/zaynxop")
+                        "मेरे भगवान...✨", url=f"https://t.me/zaynxop")
                 ]
             ]
         ),
