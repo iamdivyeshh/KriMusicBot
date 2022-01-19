@@ -99,7 +99,7 @@ async def generate_cover(requested_by, title, views, duration, thumbnail):
 
 
 @Client.on_message(
-    commandpro(["/play", "/yt", "/ytp", "play", "yt", "ytp", "@", "#","p","zayn"])
+    commandpro(["/play", "/yt", "/ytp", "play", "yt", "ytp", "@", "#","p","zayn", "alexaplay"])
     & filters.group
     & ~filters.edited
     & ~filters.forwarded
@@ -173,7 +173,7 @@ async def play(_, message: Message):
             [
                 [
                         InlineKeyboardButton(
-                            text="**मेरे भगवान...✨**",
+                            text="मेरे भगवान...✨",
                             url=f"https://t.me/ZaYNxOP")
 
                 ]
@@ -212,7 +212,7 @@ async def play(_, message: Message):
             [
                 [
                         InlineKeyboardButton(
-                            text="**मेरे भगवान...✨**",
+                            text="मेरे भगवान...✨",
                             url=f"https://t.me/ZaYNxOP")
 
                 ]
@@ -228,7 +228,7 @@ async def play(_, message: Message):
             [
                 [
                         InlineKeyboardButton(
-                            text="**मेरे भगवान...✨**",
+                            text="मेरे भगवान...✨",
                             url=f"https://t.me/ZaYNxOP")
 
                 ]
@@ -282,7 +282,7 @@ async def play(_, message: Message):
             [
                 [
                         InlineKeyboardButton(
-                            text="**मेरे भगवान...✨**",
+                            text="मेरे भगवान...✨",
                             url=f"https://t.me/ZaYNxOP")
 
                 ]
@@ -335,7 +335,7 @@ async def play(_, message: Message):
 async def pause(_, message: Message):
     await clientbot.pytgcalls.pause_stream(message.chat.id)
     await message.reply_photo(
-                             photo="https://telegra.ph/file/0c45d7593936a7b3207a9.jpg", 
+                             photo="https://telegra.ph/file/92bba3375827ea52df036.mp4", 
                              caption="** 𝐃𝐢𝐕𝐘𝐄𝐬𝐇  𝐌𝐮𝐬𝐢𝐜𝐍𝐨𝐰 🥀\n 𝐏𝐚𝐮𝐬𝐞𝐝  ...**"
     )
 
@@ -346,7 +346,7 @@ async def pause(_, message: Message):
 async def resume(_, message: Message):
     await clientbot.pytgcalls.resume_stream(message.chat.id)
     await message.reply_photo(
-                             photo="https://telegra.ph/file/0c45d7593936a7b3207a9.jpg", 
+                             photo="https://telegra.ph/file/92bba3375827ea52df036.mp4", 
                              caption="**𝐃𝐢𝐕𝐘𝐄𝐬𝐇  𝐌𝐮𝐬𝐢𝐜𝐍𝐨𝐰 🥀\n 𝐏𝐥𝐚𝐲𝐢𝐧𝐠  ...**"
     )
 
@@ -380,7 +380,7 @@ async def skip(_, message: Message):
 
 
     await message.reply_photo(
-                             photo="https://telegra.ph/file/0c45d7593936a7b3207a9.jpg", 
+                             photo="https://telegra.ph/file/92bba3375827ea52df036.mp4", 
                              caption=f'** 𝐃𝐢𝐕𝐘𝐄𝐬𝐇  𝐌𝐮𝐬𝐢𝐜𝐍𝐨𝐰 🥀\n⏩ 𝐒𝐤𝐢𝐩𝐩𝐞𝐝 🌷 ...**'
    ) 
 
@@ -396,7 +396,7 @@ async def stop(_, message: Message):
 
     await clientbot.pytgcalls.leave_group_call(message.chat.id)
     await message.reply_photo(
-                             photo="https://telegra.ph/file/0c45d7593936a7b3207a9.jpg", 
+                             photo="https://telegra.ph/file/92bba3375827ea52df036.mp4", 
                              caption="𝐃𝐢𝐕𝐘𝐄𝐬𝐇 𝐌𝐮𝐬𝐢𝐜𝐍𝐨𝐰 🥀\n❌ 𝐒𝐭𝐨𝐩𝐩𝐞𝐝 🌷 ...**"
     )
 
@@ -414,6 +414,6 @@ async def admincache(client, message: Message):
     )
 
     await message.reply_photo(
-                              photo="https://telegra.ph/file/0c45d7593936a7b3207a9.jpg",
+                              photo="https://telegra.ph/file/92bba3375827ea52df036.mp4",
                               caption="**𝐃𝐢𝐕𝐘𝐄𝐬𝐇 𝐌𝐮𝐬𝐢𝐜𝐍𝐨𝐰 🥀\n🔥 𝐑𝐞𝐥𝐨𝐚𝐝𝐞𝐝 🌷 ...**"
     )
