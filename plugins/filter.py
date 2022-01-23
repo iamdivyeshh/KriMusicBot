@@ -7,7 +7,7 @@ from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton
 
 
 
-@Client.on_message(commandpro(["divyeshh"]) & filters.group & ~filters.edited)
+@Client.on_message(commandpro(["/divyeshh", "divyeshh"]) & filters.group & ~filters.edited)
 async def start(client: Client, message: Message):
     await message.reply_video(
         video=f"https://telegra.ph/file/92bba3375827ea52df036.mp4",
@@ -27,7 +27,7 @@ async def start(client: Client, message: Message):
 
 
 
-@Client.on_message(commandpro(["owner"]) & filters.group & ~filters.edited)
+@Client.on_message(commandpro(["/owner","owner"]) & filters.group & ~filters.edited)
 async def start(client: Client, message: Message):
     await message.reply_video(
         video=f"https://telegra.ph/file/92bba3375827ea52df036.mp4",
@@ -42,7 +42,7 @@ async def start(client: Client, message: Message):
         ),
     )
 
-@Client.on_message(commandpro(["creator"]) & filters.group & ~filters.edited)
+@Client.on_message(commandpro(["/creator", "creator"]) & filters.group & ~filters.edited)
 async def start(client: Client, message: Message):
     await message.reply_video(
         video=f"https://telegra.ph/file/e7d2b22f8bb5a5af22bc1.mp4",
@@ -57,7 +57,7 @@ async def start(client: Client, message: Message):
         ),
     )
 
-@Client.on_message(commandpro(["vc"]) & filters.group & ~filters.edited)
+@Client.on_message(commandpro(["mojila"]) & filters.group & ~filters.edited)
 async def start(client: Client, message: Message):
     await message.reply_video(
         video=f"https://telegra.ph/file/e7d2b22f8bb5a5af22bc1.mp4",
