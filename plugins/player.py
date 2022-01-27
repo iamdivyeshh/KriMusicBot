@@ -141,12 +141,12 @@ async def play(_, message: Message):
                     pass
                 except Exception:
                     await lel.edit(
-                        f"**🎸 𝐏𝐥𝐚𝐞𝐚𝐬𝐞 ❤️ 𝐌𝐚𝐧𝐮𝐚𝐥𝐥𝐲 🥀 𝐀𝐝𝐝 💫 𝐀𝐬𝐬𝐢𝐬𝐭𝐚𝐧𝐭 😔 𝐎𝐫 🎸 𝐂𝐨𝐧𝐭𝐚𝐜𝐭 ❤️ 𝐓𝐨 : @ZaYNxOP 🥀** ")
+                        f"**𝐏𝐥𝐚𝐞𝐚𝐬𝐞  𝐌𝐚𝐧𝐮𝐚𝐥𝐥𝐲  𝐀𝐝𝐝  𝐀𝐬𝐬𝐢𝐬𝐭𝐚𝐧𝐭 :- @KriMusic_Bot \n𝐎𝐫  𝐂𝐨𝐧𝐭𝐚𝐜𝐭  𝐓𝐨 : @ZaYNxOP 🥀** ")
     try:
         await USER.get_chat(chid)
     except:
         await lel.edit(
-            f"**🎸 𝐏𝐥𝐚𝐞𝐚𝐬𝐞 ❤️ 𝐌𝐚𝐧𝐮𝐚𝐥𝐥𝐲 🥀 𝐀𝐝𝐝 💫 𝐀𝐬𝐬𝐢𝐬𝐭𝐚𝐧𝐭 😔 𝐎𝐫 🎸 𝐂𝐨𝐧𝐭𝐚𝐜𝐭 ❤️ 𝐓𝐨 : @ZaYNxOP 🥀 ...*")
+            f"**𝐏𝐥𝐚𝐞𝐚𝐬𝐞  𝐌𝐚𝐧𝐮𝐚𝐥𝐥𝐲  𝐀𝐝𝐝  𝐀𝐬𝐬𝐢𝐬𝐭𝐚𝐧𝐭 :- @KriMusic_Bot \n𝐎𝐫  𝐂𝐨𝐧𝐭𝐚𝐜𝐭  𝐓𝐨 : @ZaYNxOP 🥀 ...*")
         return
     
     audio = (
