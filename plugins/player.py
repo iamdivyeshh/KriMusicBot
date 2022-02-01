@@ -146,7 +146,7 @@ async def play(_, message: Message):
                     await lel.edit(
                         f"<b>🔴 Flood Wait Error 🔴 \nUser {user.first_name} couldn't join your group due to heavy requests for userbot! Make sure = is not banned in group."
                                   "\n\nOr manually add helper to your Group and try again</b>",
-                              )"
+                             
         )
     try:
         await USER.get_chat(chid)
